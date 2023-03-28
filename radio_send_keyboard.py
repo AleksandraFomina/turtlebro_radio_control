@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-from __future__ import print_function
 import serial
-import threading
 
 import sys
 from select import select
