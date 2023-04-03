@@ -61,7 +61,7 @@ if __name__=="__main__":
     key_timeout = 0.5
 
     ser = serial.Serial()
-    ser.baudrate = 9600
+    ser.baudrate = 19200
     ser.port = "/dev/ttyUSB0"
     ser.dtr = False
     ser.timeout = 0.5
