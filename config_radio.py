@@ -19,7 +19,7 @@ print(response)
 ser.write(bytes.fromhex('AA FA 01'))
 response = ser.read(1024)
 print(response)
-ser.write(bytes.fromhex('AA FA 03 01 01 03 07 03 02 01 01 00 00 00 00 00 00 0D 0A')) #39 channel (x27), 03 - speed 9600
+ser.write(bytes.fromhex('AA FA 03 14 01 05 07 05 02 01 01 00 00 00 00 00 00 0D 0A')) #39 channel (x27), 03 - speed 9600
 response = ser.read(1024)
 print(response)
 ser.write(bytes.fromhex('AA FA 01'))
